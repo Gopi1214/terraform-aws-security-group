@@ -31,5 +31,5 @@ variable "vpc_id" {
 
 variable "sg_ingress_rules" {
   default = []
-  type = list
+  type    = list(any)
 }
